@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>UniEngage</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">        
+        <!-- Core theme CSS (Bootstrap CSS)-->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Input Phone Number CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+        <!-- Custome CSS -->
+        <link href="assets/css/styles.css" rel="stylesheet" />
+        <!-- Responsive CSS -->
+        <link href="assets/css/responsive.css" rel="stylesheet" />
+        <!-- Font Link -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+          <div class="d-flex">
+            <!-- Sidebar-->
+            <div id="sidebar-wrapper">
+                <div class="sidebar-heading">
+                  <div class="left-logo">
+                    <a class="small-logo" href="#"><img alt="logo" src="assets/images/logo-small.png"></a>
+                    <a class="large-logo" href="#"><img alt="logo" src="assets/images/logo-white.png"></a>
+                  </div>
+                </div>
+                
+                <div class="list-group left-nav">
+                  <ul class="nav flex-column left-nav" id="nav_accordion">
+                    <li class="nav-item">
+                      <a class="nav-link collapsed active" data-bs-toggle="collapse" data-bs-target="#menu_item1" href="#"> <i class="fa fa-dashboard-custom"></i> <span>Dashboard</span> <span class="plus"></span> </a>
+                      <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+                          <li><a class="nav-link" href="#">Submenu item 1 </a></li>
+                          <li><a class="nav-link" href="#">Submenu item 2 </a></li>
+                          <li><a class="nav-link" href="#">Submenu item 3 </a> </li>
+                      </ul>                  
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-phone-custom"></i> <span>Services</span></a>
+                    </li>                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-contact-custom"></i> <span>Contacts</span></a>                      
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-megaphone-custom"></i> <span>Campaigns</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-template-custom"></i> <span>My Templates</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-flow-chart-custom"></i> <span>My Flow</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-document-custom"></i> <span>My Documents</span></a>
+                    </li>                    
+                  </ul>
+
+                </div>
+
+
+                <!-- <div class="bottom-nav">
+                    <ul>                
+                      <li><a href="#"><i class="fa help-icon">?</i> <span> FAQ</span></a></li>
+                      <li><a href="#"><i class="fa term-icon"></i> <span> Terms & condiotion</span></a></li>
+                      <li><a href="#"><i class="fa affiliate-icon"></i> <span> Affiliate</span></a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="bg-shadow bg-white">
+                    <div class="container-fluid">
+                      <div class="space-between">                                                                           
+                            <div class="head-left">  
+                              <div id="sidebarToggle"><a onclick="w3_open()"><i class="fa fa-bars"></i></a></div>                               
+                                <div class="search d-flex">
+                                  <form>
+                                    <input class="form-control" placeholder="Search Campaign" type="text" required> 
+                                  </form>
+                                  <p>Search Campaign </p>
+                                </div>
+                            </div>
+                            <div class="head-right">
+                              <div class="dropdown">
+                                <p class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown">Account Balance: 100 $</p>                                                      
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Phantom</a></li>
+                                    <li><a href="#">Cluster</a></li>
+                                    <li><a href="#">Phantom</a></li>
+                                    <li><a href="#">Cluster</a></li>
+                                </ul>
+                              </div> 
+                              <div class="user">
+                                <img alt="user" src="assets/images/user-img.jpg">
+                              </div>  
+                              <div class="help"><a href="#"><i class="fa fa-help-icon"></i> Help</a></div>                   
+                            </div>                        
+                    </div>
+                </nav>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <div class="body-main">
+
+                        <div class="toast notification show" role="alert" aria-live="assertive" aria-atomic="true">
+                          <i class="fa fa-bell"></i> 
+                          This is a alert notification pop-up and can be used to display any kind of notification for the user.
+                          <button type="button" data-bs-dismiss="toast" aria-label="Close" class="fa close btn-close btn-close-white"></button>
+                        </div>
+
+                        <div class="card-sec">
+                          <div class="card-col">
+                            <img alt="group" src="assets/images/group.png">
+                            <h2>Manage Contacts</h2>
+                            <p>Assigned: 2400 | Unassigned: 50</p>
+                          </div>
+
+                          <div class="card-col">
+                            <img alt="group" src="assets/images/megaphone-big.png">
+                            <h2>Manage Campaign</h2>
+                            <p>Completed: 75 | Ongoing: 17</p>
+                          </div>
+
+                          <div class="card-col">
+                            <img alt="group" src="assets/images/card.png">
+                            <h2>Buy Credits</h2>
+                            <p>Used till date: 50000 | Remaining: 1000</p>
+                          </div>
+
+                          <div class="card-col">
+                            <img alt="group" src="assets/images/template-big.png">
+                            <h2>Explore Templates</h2>
+                            <p>Default: 25 | User-Defined: 5</p>
+                          </div>
+                        </div>
+
+
+                        <div class="graph-sec">
+                            <div style="width: 100%;">
+                              <div class="space-between">
+                                <h3>Bifurcation of Utilization of Services</h3>
+                                <div class="d-flex select-day">
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>Services</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>Today</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div style="height: 200px;" class="chart-container-1">
+                                <canvas style="width: 100%;" id="chart-1"></canvas>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="campaign-sec">
+                          <div class="campaign-col-l">
+                            <div class="top-col">
+                              <div class="space-between">
+                                <h3>Ongoing Campaign</h3>
+                                <div><a class="view-btn" href="#">View All <i class="fa fa-angle-right"></i></a></div>
+                              </div>
+                              <div class="camp-row">
+                                <div class="space-between">
+                                  <div>
+                                    <h4>New Year Offer Campaign</h4>
+                                    <p><small>Description of the campaign. xx competed</small></p>
+                                    <p class="typeText">Type: SMS</p>
+                                  </div>
+                                  <div>
+                                    <div class="progress-bar "></div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <div class="camp-row">
+                                <div class="space-between">
+                                  <div>
+                                    <h4>New Year Offer Campaign</h4>
+                                    <p><small>Description of the campaign. xx competed</small></p>
+                                    <p class="typeText">Type: SMS</p>
+                                  </div>
+                                  <div>
+                                    <div class="progress-bar "></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="bottom-col">
+                              <div class="space-between">
+                                <h4>Recently Added Contacts</h4>
+                                <div><a class="view-btn" href="#">View All <i class="fa fa-angle-right"></i></a></div>
+                              </div>
+
+                              <div class="camp-row">
+                                <div class="space-between">
+                                  <div>
+                                    <h4>Rohan Sign Kumar</h4>
+                                    <p><small class="success-text">Assigned</small></p>                                  
+                                  </div>
+                                  <div>
+                                    <ul class="action">
+                                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-trash"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-times-circle"></i></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div> 
+
+                              <div class="camp-row">
+                                <div class="space-between">
+                                  <div>
+                                    <h4>Neha Sawant</h4>
+                                    <p><small class="success-text">Assigned</small></p>                                  
+                                  </div>
+                                  <div>
+                                    <ul class="action">
+                                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-trash"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-times-circle"></i></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div> 
+
+                              <div class="camp-row">
+                                <div class="space-between">
+                                  <div>
+                                    <h4>Rohit Agarwal</h4>
+                                    <p><small class="denger-text">Unassigned</small></p>                                  
+                                  </div>
+                                  <div>
+                                    <ul class="action">
+                                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-trash"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-times-circle"></i></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div> 
+
+                            </div>
+
+
+                          </div>
+                          <div class="campaign-col-r">
+                            <div class="top-col">
+                              <div class="space-between">
+                                <h3>Alerts & Notifications</h3>
+                                <div><a class="view-btn" href="#">View All <i class="fa fa-angle-right"></i></a></div>
+                              </div>
+                              <div class="alerts-sec d-flex">
+                                <div class="scrollbar scrollbar-primary">
+                                  <div class="alerts-overflow">
+                                    <ul>
+                                      <li>
+                                        <p>Campaign - Course Introduction received 45 leads</p>
+                                        <dd>Now</dd>
+                                      </li>
+                                      <li>
+                                        <p>Terms Of Use updated</p>
+                                        <dd>30 mins ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>Privacy Policy Updated</p>
+                                        <dd>30 mins ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>1 Sender ID generated successfully</p>
+                                        <dd>1 hour ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>Top Up successfully done for Whatsapp</p>
+                                        <dd>2 hours ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>New Features launched in dashboard. Check now</p>
+                                        <dd>1 day ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>Campaign - Course Introduction received 45 leads</p>
+                                        <dd>Now</dd>
+                                      </li>
+                                      <li>
+                                        <p>Terms Of Use updated</p>
+                                        <dd>30 mins ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>Privacy Policy Updated</p>
+                                        <dd>30 mins ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>1 Sender ID generated successfully</p>
+                                        <dd>1 hour ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>Top Up successfully done for Whatsapp</p>
+                                        <dd>2 hours ago</dd>
+                                      </li>
+                                      <li>
+                                        <p>New Features launched in dashboard. Check now</p>
+                                        <dd>1 day ago</dd>
+                                      </li>
+  
+                                    </ul>
+                                  </div>                                
+                                </div>
+                              </div>
+                            </div> 
+
+                            <div class="bottom-col">
+                              <div class="space-between">
+                                <h3>Recommended Services</h3>
+                                <div><a class="view-btn" href="#">View All <i class="fa fa-angle-right"></i></a></div>
+                              </div>
+
+                              <div class="mat-chip">
+                                <ul>
+                                  <li><a href="#">Whatsapp</a></li>
+                                  <li><a href="#">Chat-Bot</a></li>
+                                  <li><a href="#">Verify</a></li>
+                                  <li><a href="#">Zoho</a></li>
+                                  <li><a href="#">QuickBooks</a></li>
+                                  <li><a href="#">API</a></li>
+                                </ul>
+                              </div>
+
+
+                            </div> 
+
+                          </div>
+
+                        </div>
+
+
+
+
+                        <div class="graph-sec">
+                          <div style="width: 100%;">
+                            <div class="space-between">
+                              <h3>Top 5 Countries</h3>
+                              
+                            </div>
+                            
+                          </div>
+                      </div>
+
+
+
+                      <div class="advertising-sec">
+                        <img alt="Advertising" src="assets/images/add-banner.jpg">
+                      </div>
+                       
+                                                
+            
+                        
+                      </div>
+                </div>                
+            </div>
+          </div>            
+
+          <div class="footer">
+            ghfgf
+          </div>
+        </div>
+        
+        
+
+        <!-- JS Start here -->        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>            
+        <!-- Bootstrap core JS-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Progressbar JS-->
+        <script src="assets/js/jQuery-plugin-progressbar.js"></script>
+        <!-- Bargraph JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+        <!-- Inputphone Number core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+        <!-- Core theme JS-->       
+        <script src="assets/js/scripts.js"></script>
+        
+
+        
+    </body>
+</html>
